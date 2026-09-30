@@ -3,4 +3,4 @@ Projetos retirados do site roadmap.sh para exercitar o desenvolvimento web.
 
 Meus projetos até o momento...
 
-[Single-Page CV]([https://joaosilva.github.io/meu-projeto-web/](https://bgs98.github.io/projetos-roadmap/frontend-projects/beginner/single-page-cv/))
+[Single-Page CV](https://bgs98.github.io/projetos-roadmap/frontend-projects/beginner/single-page-cv/)
