@@ -3,6 +3,7 @@ Projetos retirados do site roadmap.sh para exercitar o desenvolvimento web.
 
 Meus projetos até o momento...
 
-[Single-Page CV](https://bgs98.github.io/projetos-roadmap/frontend-projects/beginner/single-page-cv/)
+- Nível Iniciantes
+    - [Single-Page CV](https://bgs98.github.io/projetos-roadmap/frontend-projects/beginner/single-page-cv/)
 
-[Simple-Page Website](https://bgs98.github.io/projetos-roadmap/frontend-projects/beginner/simple-page-website/)
+    - [Basic HTML Website](https://bgs98.github.io/projetos-roadmap/frontend-projects/beginner/basic-html-website/)
