@@ -4,34 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="estilos/styles.css">
 </head>
 <body>
     <header>
-        <h3>Bruno Santos</h3>
+        <img src="imagens/favicon.ico" alt="Logo do Site">
+        <h3 id="autor">Bruno Santos</h3>
         <nav>
-            <a href="index.html">Pagina Inicial</a>
-            <a href="projetos.html">Projetos</a>
-            <a href="artigos.html">Artigos</a>
+            <a href="index.html">Pagina Inicial / </a>
+            <a href="projetos.html">Projetos / </a>
+            <a href="artigos.html">Artigos / </a>
             <a href="contato.html">Contato</a>
         </nav>
         <h1>Estudante Frontend</h1>
-        <p>Página simples somente HTML com boa estruturação</p>
-        <hr>
+        <p>Página simples com boa estruturação</p>
     </header>
+    
     <main>
-        <h2>Deixe sua mensagem</h2>
-        <form action="@" method="get">
-            <label for="name">Nome:</label>
-            <input type="text" name="name" id="name" required placeholder="obrigatório">
+        <article>
+            <h2>Deixe sua mensagem</h2>
 
-            <label for="email">E-mail</label>
-            <input type="email" name="email" id="email" placeholder="opcional"> <br>
-
-            <label for="mensagem">Sua mensagem:</label><br>
-            <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea><br>
-
-            <input type="submit" value="Enviar">
-        </form>
+            <div id="formulario">
+                <form action="@" method="get">
+                    <label for="name">Nome:</label>
+                    <input type="text" name="name" id="name" required placeholder="obrigatório"><br>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="opcional"> <br>
+                    <label for="mensagem">Sua mensagem:</label><br>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea><br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </article>
     </main>
 </body>
 </html>

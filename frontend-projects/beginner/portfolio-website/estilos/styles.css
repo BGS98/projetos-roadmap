@@ -47,3 +47,49 @@ header h1 {
 header p {
     color: rgb(110, 110, 110);
 }
+
+article {
+    border: 1px solid black;
+}
+
+article h2 {
+    font-family: "Edu QLD Hand", cursive;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+article h3, p{
+    padding: 5px;
+}
+
+.projetos ul{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: lightgray;
+    list-style: none;
+}
+
+.experiencia .xp {
+    padding: 10px;
+    background-color: lightgray;
+}
+
+.educacao .curso {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: lightgray;
+}
+
+.artigos p {
+    padding: 20px;
+    text-align: justify;
+}
+
+#formulario {
+    padding: 20px;
+}
+
+#formulario label, input{
+    margin: 5px
+}
+
