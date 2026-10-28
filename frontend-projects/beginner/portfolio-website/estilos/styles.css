@@ -62,7 +62,8 @@ article h3, p{
     padding: 5px;
 }
 
-.projetos ul{
+.projetos a{
+    display: block;
     border: 1px solid black;
     padding: 10px;
     background-color: lightgray;
@@ -72,6 +73,7 @@ article h3, p{
 .experiencia .xp {
     padding: 10px;
     background-color: lightgray;
+    border: 2px solid black;
 }
 
 .educacao .curso {
