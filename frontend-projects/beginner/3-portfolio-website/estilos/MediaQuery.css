@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+
+    header {
+        display: grid;
+        grid-template: auto auto auto / repeat(10, 1fr);
+    }
+
+    header > img { 
+        display: block;
+        grid-area: 1 / 1 / 2 / 2;
+        place-self: center end;
+    }
+
+    header #autor {
+        grid-area: 1 / 2 / 2 / 5;
+        place-self: center start;
+    }
+
+    header > h1{
+        grid-area: 2 / 3 / 3 / 9;
+    }
+
+    header > nav {
+        grid-area: 1 / 5 / 2 / 11;
+        justify-self: flex-end;
+    }
+
+    header > p {
+        grid-area: 3 / 3 / 4 / 9;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .projetos, .educacao{
+        display: grid;
+        grid-template-rows: 150px auto auto;
+        grid-auto-rows: auto;
+    }
+
+    .experiencia {
+        display: grid;
+        grid-template-rows: 150px auto;
+        grid-auto-rows: auto;
+    }
+
+    .projetos > a, .curso, h2, .xp{
+        align-content: center;
+    }
+
+    #personalProject, #artigos, #mensagem{
+        grid-area: 1 / 1 / 2 / 4;
+    }
+}

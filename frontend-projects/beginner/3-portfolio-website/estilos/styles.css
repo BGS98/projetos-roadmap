@@ -14,6 +14,7 @@ body {
 }
 
 header {
+    display: grid;
     text-align: center;
     padding: 20px;
     border: 2px solid black;
@@ -22,7 +23,7 @@ header {
 header > img {
     display: block;
     width: 50px;
-    margin: auto;
+    place-self: center center;
 }
 
 #autor {
@@ -82,7 +83,7 @@ article h3, p{
     background-color: lightgray;
 }
 
-.artigos p {
+#artigos p {
     padding: 20px;
     text-align: justify;
 }
